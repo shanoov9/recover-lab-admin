@@ -1,0 +1,3 @@
+export const ALL_SERVICES = 'ALL_SERVICES'
+export const ADD_NEW_SERVICE = 'ADD_NEW_SERVICE'
+export const DELETE_SERVICE = 'DELETE_SERVICE'

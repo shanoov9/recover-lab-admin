@@ -1,0 +1,16 @@
+/* .height-350{
+    height: 350px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.card1{
+    border: 1px solid #2e2c32;
+    margin: 5px;
+} */
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+  }

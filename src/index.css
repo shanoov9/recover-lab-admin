@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.max-h-96 {
+  max-height: 70vh;
+}
+
+
+@media (min-width:1600px) {
+  .max-h-96 {
+    max-height: 77vh;
+  }
+}
+
+@media (max-width:1400px) {
+  .max-h-96 {
+    max-height: 66.5vh;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}
+
+.no-tailwind * {
+  all: revert;
+}
